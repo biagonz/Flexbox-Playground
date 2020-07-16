@@ -130,7 +130,116 @@ main .demo {
       align-content: flex-start;
   background-color: #222;
   height: 600px;
+  border: 2px dashed #ccc;
+  margin: 10px;
   padding: 20px;
+}
+
+main .demo.flex-direction-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .demo.flex-direction-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .demo.flex-wrap-nowrap {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+main .demo.flex-wrap-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .demo.align-items-flex-start {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+main .demo.align-items-flex-end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+main .demo.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .demo.align-content-flex-start {
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+main .demo.align-content-flex-end {
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+main .demo.align-content-center {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+main .demo.align-content-space-around {
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+main .demo.align-content-space-between {
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+main .demo.align-content-space-evenly {
+  -ms-flex-line-pack: space-evenly;
+      align-content: space-evenly;
+}
+
+main .demo.justify-content-flex-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+main .demo.justify-content-flex-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main .demo.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .demo.justify-content-space-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .demo.justify-content-space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .demo.justify-content-space-evenly {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 main .demo .square {
